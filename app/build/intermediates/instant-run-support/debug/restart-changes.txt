@@ -1,0 +1,1 @@
+CHANGED,C:\Users\Eric\Documents\android-programming\week2-ascii-art\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\mooc\vandy\java4android\diamonds\logic\Logic.class
