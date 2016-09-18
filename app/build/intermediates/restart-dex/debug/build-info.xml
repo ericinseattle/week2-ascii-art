@@ -4,22 +4,22 @@
     api-level="23"
     density="420dpi"
     format="7"
-    timestamp="283785539272231"
+    timestamp="287857822951750"
     token="-4149768726487299229"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="286" />
+        duration="284" />
     <task
         name="instant-run-dex"
-        duration="350" />
+        duration="381" />
     <task
         name="instant-run-transform"
-        duration="24" />
+        duration="27" />
     <task
         name="verifier"
-        duration="2" />
+        duration="6" />
 
     <artifact
         location="C:\Users\Eric\Documents\android-programming\week2-ascii-art\app\build\intermediates\reload-dex\debug\classes.dex"
@@ -93,6 +93,90 @@
     </build>
     <build
         timestamp="283785539272231"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Eric\Documents\android-programming\week2-ascii-art\app\build\intermediates\builds\debug\283785539272231\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="285031033718947"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Eric\Documents\android-programming\week2-ascii-art\app\build\intermediates\builds\debug\285031033718947\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="285056221321601"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Eric\Documents\android-programming\week2-ascii-art\app\build\intermediates\builds\debug\285056221321601\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="285218682362399"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Eric\Documents\android-programming\week2-ascii-art\app\build\intermediates\builds\debug\285218682362399\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="285349001183012"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Eric\Documents\android-programming\week2-ascii-art\app\build\intermediates\builds\debug\285349001183012\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="285493184776149"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Eric\Documents\android-programming\week2-ascii-art\app\build\intermediates\builds\debug\285493184776149\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="285653286538181"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Eric\Documents\android-programming\week2-ascii-art\app\build\intermediates\builds\debug\285653286538181\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="285743407288974"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Eric\Documents\android-programming\week2-ascii-art\app\build\intermediates\builds\debug\285743407288974\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="287778035925208"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Eric\Documents\android-programming\week2-ascii-art\app\build\intermediates\builds\debug\287778035925208\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="287794458926906"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Eric\Documents\android-programming\week2-ascii-art\app\build\intermediates\builds\debug\287794458926906\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="287816236183500"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Eric\Documents\android-programming\week2-ascii-art\app\build\intermediates\builds\debug\287816236183500\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="287846777013354"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Eric\Documents\android-programming\week2-ascii-art\app\build\intermediates\builds\debug\287846777013354\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="287857822951750"
         verifier="COMPATIBLE" >
         <artifact
             location="C:\Users\Eric\Documents\android-programming\week2-ascii-art\app\build\intermediates\reload-dex\debug\classes.dex"

@@ -49,6 +49,9 @@ public class Logic
         // TODO -- add your code here
         drawHorizontalLine(size);
         drawTopHalf(size);
+        drawMiddleLine(size);
+        drawBottomHalf(size);
+        drawHorizontalLine(size);
     }
 
     public void drawHorizontalLine(int size)    //print top and bottom border lines
@@ -90,11 +93,43 @@ public class Logic
 
     public void drawMiddleLine(int size)
     {
-
+        mOut.print('|');
+        mOut.print('<');
+        for(int col = 1; col <= size*2-2; col++)
+        {
+            if(size % 2 == 0)
+                mOut.print('-');
+            else
+                mOut.print('=');
+        }
+        mOut.print('>');
+        mOut.println('|');
     }
 
     public void drawBottomHalf(int size)
     {
+        for(int row=size-1; row >= 1; row--)
+        {
+            mOut.print('|');
+            for(int leftSpace = 1; leftSpace<=size-row ; leftSpace++)    //print spaces
+            {
+                mOut.print(' ');
+            }
+            mOut.print('\\');
+            for(int middleChar = 1; middleChar <= row*2-2; middleChar++)
+            {
+                if (row % 2 == 0)
+                    mOut.print('-');    //if row is divisible by 2, print '-' otherwise print '='
+                else
+                    mOut.print('=');
 
+            }
+            mOut.print('/');
+            for(int rightSpace = 1; rightSpace<=(size-row); rightSpace++)    //print spaces
+            {
+                mOut.print(' ');
+            }
+            mOut.println('|');
+        }
     }
 }
